@@ -1,0 +1,253 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+} */
+
+.marketplace-mp {
+    display: flex;
+    padding: 20px;
+    background-color: white;
+}
+
+.filters-section-mp {
+    width: 25%;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+}
+
+.filter-block-mp {
+    margin-top: 20px;
+}
+
+.filter-category-mp {
+    margin-bottom: 20px;
+}
+
+.filter-category-mp label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.filter-category-mp select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    height: 40px;
+}
+
+.patent-options-mp button {
+    padding: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.patent-options-mp button:hover {
+    background-color: #ddd;
+}
+
+.applied-filters-section-mp {
+    width: 75%;
+    padding: 20px;
+}
+
+.applied-filters-mp {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.applied-filter-mp {
+    display: flex;
+    background-color: #ececec;
+    border-radius: 5px;
+    height: 40px;
+}
+
+.applied-filter-mp p {
+    padding: 0px 0px 0px 10px;
+    margin-top: 14px;
+}
+
+.applied-filter-mp button {
+    cursor: pointer;
+    width: 20px;
+    margin-top: -0px;
+}
+
+.applied-filter-mp img {
+    width: 20px;
+    padding-top: 2px;
+}
+
+.applied-filter-mp button:hover {
+    color: red;
+}
+
+.items-list-section-mp {
+    padding: 20px;
+}
+
+.items-list-mp {
+    display: flex;
+    flex-direction: column;
+}
+
+.item-mp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.item-mp img {
+    width: 30px;
+    height: 30px;
+    
+}
+
+.item-mp p {
+    flex-grow: 1;
+}
+
+.availability-mp {
+    color: #5766A4;
+    font-weight: bold;
+    border: 1px solid #5766A4;
+    border-radius: 14px;
+    padding: 3px;
+    font-size: small;
+    width: 70px;
+    text-align: center;
+}
+
+.availability-sold-mp {
+    color: red;
+    font-weight: bold;
+    border: 1px solid red;
+    border-radius: 14px;
+    padding: 3px;
+    font-size: small;
+    width: 70px;
+    text-align: center;
+    
+}
+
+
+.filter-item-section-mp {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+}
+
+/*Search bar*/
+.search-container-mp {
+    padding: 10px 20px;
+    background-color: #1e1e2e;
+}
+
+.filters-mp {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin: 30px ;
+}
+
+.filter-item-mp {
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.filter-item-mp .count-mp {
+    color: #b0b0b0;
+}
+
+.search-bar-mp {
+    display: flex;
+    background-color: #ececec;
+    border-radius: 10px;
+    width: 25%;
+    margin-left:37.5%; 
+    margin-bottom: 10px;
+}
+
+.search-icon-mp {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.search-icon-mp img{
+    width: 30px;
+    margin: 15% 0% 0% 15%;
+}
+
+.search-bar-mp input {
+    border: none;
+    background-color: transparent;
+    outline: none;
+    font-size: 16px;
+}
+
+.search-bar-mp input::placeholder {
+    color: #5a5a5a;
+}
+
+.filterInButton-mp{
+    background-color: #ececec;
+}
+
+/* Pagination styling */
+.pagination-mp {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .pagination-mp button {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px 15px;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .pagination-mp button.active {
+    background-color: #1e1e2e;
+    color: white;
+  }
+  
+  .pagination-mp button:hover {
+    background-color: #1e1e2e;
+    color: white;
+  }
+
+  .item-list-bin-mp{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+.item-list-bin-mp button{
+    background-color: #fff;
+    margin: 0px;
+    padding: 0px;
+}

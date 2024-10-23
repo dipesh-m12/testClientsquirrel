@@ -1,0 +1,142 @@
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 1rem;
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    height: 56px;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    cursor: pointer;
+}
+
+.nav-links li {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    padding: 0.5rem 1rem;
+    text-align: center;
+}
+
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    z-index: 1001;
+    /* Make sure the hamburger menu stays above the opened nav */
+}
+
+.hamburger .bar {
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    margin: 3px;
+}
+
+/* Mobile-specific styles */
+@media (max-width: 768px) {
+    .nav-links {
+        position: absolute;
+        right: 0;
+        height: 100vh;
+        top: 0;
+        background-color: white;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        justify-content: center;
+        transform: translateX(100%);
+        transition: transform 0.3s ease-in-out;
+        z-index: 1000;
+        /* Ensure it appears above the rest of the content */
+    }
+
+    .nav-links.open {
+        transform: translateX(0);
+    }
+
+    .hamburger {
+        display: flex;
+    }
+}
+
+/* Join Us button */
+.join-us-btn {
+    background-color: #2f2f2f;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .join-us-btn:hover {
+    background-color: #444;
+  }
+
+  /* User Profile Image (Circular) */
+.user-profile-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover; /* Ensures the image covers the container without distortion */
+    border: 2px solid #2f2f2f;
+    cursor: pointer;
+  }
+
+  /* Profile Dropdown */
+.profile-dropdown {
+    position: relative;
+  }
+  
+  .user-profile-image {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #2f2f2f;
+    cursor: pointer;
+  }
+  
+  /* Dropdown Menu */
+  .dropdown-menu {
+    position: absolute;
+    top: 50px; /* Adjust as needed */
+    right: 0;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 150px;
+    z-index: 100;
+  }
+  
+  .dropdown-menu a {
+    display: block;
+    padding: 10px;
+    color: #333;
+    text-decoration: none;
+    font-size: 0.9rem;
+  }
+  
+  .dropdown-menu a:hover {
+    background-color: #f1f1f1;
+    color: #000;
+  }

@@ -1,0 +1,82 @@
+.register-form-container-re {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1A1D29;
+
+  }
+  
+  .register-form-re {
+    background-color: white;
+    padding: 40px;
+    width: 500px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-title-re {
+    text-align: left;
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 0px;
+    margin-bottom: 30px;
+    border-bottom: 3px solid black;
+    display: inline-block;
+    width: 100px;
+  }
+  
+  .form-group-re {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  
+  .form-group-re input {
+    width: 42%;
+    padding: 10px;
+    border-radius: 0px;
+    font-size: 14px;
+    border:1px solid;
+    background-color: #fff;
+    border-style: none none solid none;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 10px;
+    width: 10px;
+  }
+  
+  .terms-re {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .register-btn-re {
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .register-btn-re:hover {
+    background-color: #333;
+  }
+  
+  .sign-in-re {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+  .sign-in-re a {
+    color: black;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  

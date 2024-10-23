@@ -1,0 +1,172 @@
+.container-pd {
+  font-family: "Arial", sans-serif;
+  color: white;
+  background-color: #1e1e2e;
+  padding: 20px;
+  height: 100%;
+}
+
+.header-pd {
+  text-align: left;
+  width: 40%;
+  justify-content: left;
+}
+
+.header-pd h1 {
+  font-size: 24px;
+}
+
+.header-pd p {
+  font-size: 14px;
+  color: #999;
+  text-align: left;
+}
+
+.content-pd {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  flex-direction: column;
+  width: 80%;
+}
+.whole-content-pd {
+  display: flex;
+  gap: 10px;
+}
+
+.image-section-pd {
+  display: flex;
+  gap: 10px;
+  width: 90%;
+  height: 90%;
+  margin-top: 10px;
+}
+
+.image-section-pd img {
+  width: 300px;
+  height: 300px;
+  /* border-radius: 10px; */
+}
+
+.description-section-pd {
+  /* max-width: 500px; */
+  width: auto;
+  text-align: left;
+  justify-content: left;
+  margin-top: 50px;
+}
+
+.description-section-pd h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.description-section-pd p {
+  font-size: 15px;
+  line-height: 1.6;
+  text-align: left;
+  margin-right: 90px;
+}
+
+.description-section-pd ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.description-section-pd ul li {
+  font-size: 15px;
+  margin: 5px 0;
+}
+
+.document-section-pd {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.inquiry-section-pd {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #dedfe4;
+  width: 400px;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  margin-right: 12px;
+  margin-top: 29px;
+}
+
+.inquiry-section-pd button {
+  color: black;
+  width: 180px;
+  text-align: center;
+  display: flex;
+  gap: 30px;
+}
+
+.btn-pd img {
+  width: 40px;
+  height: 40px;
+}
+
+.related-patents-pd {
+  margin-top: 30px;
+}
+
+.related-patents-pd h2 {
+  font-size: 18px;
+}
+
+.patents-grid-pd {
+  display: flex;
+  gap: 20px;
+}
+
+.patent-box-pd {
+  width: 100px;
+  height: 100px;
+  background-color: #444;
+  border-radius: 10px;
+}
+
+/* Description Navbar */
+
+.navbar-pd {
+  background-color: #fff;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: left;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+  margin-top: 5px;
+}
+
+.navbar-list-pd {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-item-pd {
+  display: inline-block;
+}
+
+.navbar-link-pd {
+  color: black;
+  font-size: 16px;
+  text-decoration: none;
+  padding: 10px 15px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar-link-pd:hover {
+  background-color: #a6a2a2;
+  border-radius: 5px;
+  color: #fff;
+  border-style: none none solid none;
+}

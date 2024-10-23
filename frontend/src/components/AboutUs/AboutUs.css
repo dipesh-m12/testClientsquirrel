@@ -1,0 +1,125 @@
+/* WhoAreWe.css */
+
+.who-container {
+    /* display: flex; */
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 40px;
+    background-color: #f0f0f0; /* Light background to match the image */
+  }
+  
+  .who-container h3{
+    font-family: 'Poppins';
+    font-size: 40px;
+  }
+
+  .image-container1 {
+    position: absolute;
+    width: 400px; /* Adjust the width based on your image */
+    z-index: 1;
+    margin-top: 70px;
+    margin-left:250px;
+    
+  }
+  
+  .image-container1 img {
+    width: 100%;
+    border-radius: 10px; /* Optional */
+  }
+  
+  .text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5); /* Transparent dark overlay */
+    padding: 20px;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    height: 250px;
+    width: 360px;
+    
+  }
+
+  .tagline{
+    width: 150px;
+    height: 150px;
+    margin-left: 20%;
+    margin-right: 60%;
+    border: solid;
+    text-align: left;
+    padding: 10px;
+    margin: 50px 90px;
+  }
+  
+  .text-overlay h2 {
+    margin-left: 43px;
+    margin-top: 14px;
+}
+  .description-container {
+    position: relative;
+    background-color: #20283E; /* Dark background for the description box */
+    color: white;
+    padding: 30px;
+    max-width: 400px; /* Same width as the image container */
+    margin-left: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+    z-index: 2;
+    margin-top: 50px;
+    margin-left: 574px;
+  }
+
+  /* OurTeam.css */
+
+.team-section {
+  margin-top: 100px;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
+.team-heading {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+
+.team-members {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.team-member {
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 320px;
+  text-align: center;
+}
+
+.team-member img {
+  width: 100%;
+  height: auto;
+}
+
+.member-info {
+  padding: 10px;
+  background-color: #f7f7f7;
+}
+
+.member-info h3 {
+  font-size: 18px;
+  margin: 10px 0 5px;
+}
+
+.member-info p {
+  font-size: 14px;
+  color: #555;
+}

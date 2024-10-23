@@ -1,0 +1,273 @@
+.container-pff{
+  width: 100%;
+  height: 100%;
+}
+.top-design{
+  width: 100%;
+  height: 200px;
+  background-color: #1A1D29;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+
+.outer-card-pff{
+  border-radius: 5px;
+  background-color: #F4F5F5;
+  width: 900px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: left;
+  height: 625px;
+  display: flex;
+  gap: 20px;
+  box-shadow: 2px 0px 10px 1px #9191dd;
+
+}
+.middle-card-pff {
+  border-radius: 5px;
+  background-color: #DEDFE4;
+  padding: 20px 20px 5px 20px;
+  width: 500px;
+  margin-top: 0%;
+  margin-left: 0%;
+  align-items: center;
+  height: auto;
+}
+
+.card-back-pff{
+  display: flex;
+  gap: 2px;
+  align-items: left;
+  margin-bottom: 19px;
+}
+.card-back-pff img{
+  width:25px;
+  padding-left: 22px;
+
+}
+
+.card-back-pff a{
+  font-size: large;
+  display: flex;
+  align-items: center;
+}
+
+.card-back-pff p {
+  margin-bottom: 20px;
+  text-align: center;
+  padding-top: 6px;
+  }
+
+  .card-back-pff:hover{
+    cursor: pointer;
+  }
+
+.fline-pff{
+  display: flex;
+  flex-direction: column;
+}
+
+.fline-pff input{
+  width: 220px;
+}
+
+.form-row-pff{
+  display: flex;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.form-actions-pff{
+  text-align: right;
+  vertical-align: bottom;
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+
+.form-actions-pff button{
+  background-color: #1A1D29;
+  color: #fff;
+  border-radius: 20px;
+  width: 100px;
+}
+
+
+
+
+.image-pff{
+  margin-bottom: 150px;
+  margin-top: -10px;
+  margin-left: -20px;
+}
+
+.image-pff h3{
+  margin-bottom: -10px;
+  margin-left: 20px;
+  margin-left: 22px;
+}
+
+/* right side */
+
+.right-card-pff{
+  text-align: center;
+  
+  margin-left: 5px;
+  width: 300px;
+}
+
+
+.step-pff {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid #999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  background-color: #ccc;
+  
+}
+
+.step-pff-active {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid #1A1D29;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  background-color: #1A1D29;
+  color: #ccc;
+}
+
+.page-numbers-pff{
+  justify-content: center;
+  margin: 30px;
+  display: flex;
+  gap: 30px;
+}
+
+.right-card-email-pff{
+  padding-top: 160px;
+  font-size: small;
+}
+
+.right-card-image-pff img{
+  height: 80px;
+  width: 80px;
+  padding-top: 70px;
+}
+
+/* upload image */
+
+/* PDF Upload Section */
+.card-pdf-upload-pff3 {
+/* background-color: #fff;
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+text-align: center;
+width: 100%;
+max-width: 450px;
+margin: 20px 50px;
+height: 100px; */
+}
+
+.card-pdf-upload-pff h2 {
+font-size: 20px;
+color: #333;
+margin-bottom: 10px;
+}
+
+.card-pdf-upload-pff p {
+font-size: 14px;
+color: #666;
+margin-bottom: 20px;
+}
+
+/* Upload Box */
+.card-upload-box-pff {
+border: 2px dashed #ccc;
+border-radius: 8px;
+padding-top: 10px;
+background-color: #f9f9f9;
+position: relative;
+text-align: center;
+margin-bottom: 10px;
+height: 80px;
+padding-bottom: 15px;
+}
+
+.card-upload-box-pff input[type="file"] {
+display: none;
+}
+
+/* Upload Icon */
+.card-upload-icon-pff {
+width: 40px;
+height: 40px;
+margin: 0 auto 10px;
+}
+
+.card-upload-icon-pff img {
+width: 100%;
+height: 100%;
+}
+
+/* Drag & Drop Text */
+.card-upload-box-pff span {
+font-size: 14px;
+color: #777;
+display: block;
+margin-bottom: 10px;
+}
+
+.card-upload-box-pff p {
+font-size: 12px;
+color: #999;
+margin: 0;
+}
+
+/* Browse Button */
+.card-browse-button-pff {
+display: inline-block;
+padding: 8px 16px;
+background-color: #007BFF;
+color: #fff;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+font-size: 14px;
+}
+
+.card-browse-button-pff:hover {
+background-color: #0056b3;
+}
+
+.card-browse-button-pff label {
+cursor: pointer;
+display: inline-block;
+margin: 0;
+}
+
+.card-browse-button-pff input[type="file"] {
+display: none;
+}
+
+.para-card-pff{
+padding-top: 80px;
+font-size: small;
+padding-bottom: 90px;
+}
+
+.right-card-image-pff-info img{
+height: 90px;
+width: 80px;
+padding-top: 70px;
+}
