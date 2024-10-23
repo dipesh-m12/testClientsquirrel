@@ -3,6 +3,7 @@ export const auth = `${host}/api/auth`;
 export const patentsRoute = `${host}/api/patent`;
 export const intRoute = `${host}/api/interaction`;
 export const profileRoute = `${host}/api/profile`;
+export const subsRoute = `${host}/api/subscribe`;
 
 //http://13.61.61.9:5000
 //export const host = "http://13.61.61.9:5000";

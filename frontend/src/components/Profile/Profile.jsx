@@ -67,6 +67,7 @@ const Profile = () => {
 
       if (response.status === 200) {
         // Handle logout logic
+        localStorage.removeItem("squirrelUser");
         navigate("/"); // Navigate to home or login page
       }
     } catch (error) {

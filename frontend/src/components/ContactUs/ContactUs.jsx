@@ -4,6 +4,7 @@ import NavBar from "../NavBar/NavBar";
 import { useNavigate } from "react-router-dom";
 import { z } from "zod";
 import axios from "axios"; // Import Axios
+import { subsRoute } from "../../utils/apiRoutes";
 
 const ContactUs = () => {
   const [formData, setFormData] = useState({
@@ -57,7 +58,7 @@ const ContactUs = () => {
       try {
         // Send POST request to backend
         const response = await axios.post(
-          "http://localhost:5000/api/subscribe",
+          subsRoute,
           {
             firstname: formData.firstName,
             lastname: formData.lastName,
