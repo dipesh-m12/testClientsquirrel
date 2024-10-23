@@ -10,6 +10,7 @@ const useAutoLogin = (setUserData, setErrors) => {
   useEffect(() => {
     const autoLogin = async () => {
       try {
+        if (!localStorage.getItem("squirrelUser")) return;
         const response = await axios.get(`${auth}/auto-login`, {
           withCredentials: true, // Important to include this
         });
