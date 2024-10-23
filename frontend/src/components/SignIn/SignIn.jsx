@@ -16,13 +16,13 @@ const SignIn = () => {
   const navigate = useNavigate();
   const [userData, setUserData] = useState(null);
 
-  useEffect(() => {
-    async function start() {
-      const { data } = await axios.get(`${host}`, { withCredentials: true });
-      console.log(data);
-    }
-    start();
-  }, []);
+  // useEffect(() => {
+  //   async function start() {
+  //     const { data } = await axios.get(`${host}`, { withCredentials: true });
+  //     console.log(data);
+  //   }
+  //   start();
+  // }, []);
 
   // Define the schema using zod
   const signInSchema = z.object({
@@ -73,6 +73,7 @@ const SignIn = () => {
       if (response.status === 200) {
         // Successful login
         console.log(response.data);
+        localStorage.setItem("squirrelUser", true);
         navigate("/home"); // Redirect on successful login
       }
     } catch (error) {

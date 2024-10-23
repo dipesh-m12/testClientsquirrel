@@ -105,6 +105,7 @@ const Register = () => {
 
         if (response.status === 201) {
           alert("Registration Successful");
+          localStorage.setItem("squirrelUser", true);
           navigate("/home"); // Redirect to the desired page after successful registration
         }
       } catch (error) {

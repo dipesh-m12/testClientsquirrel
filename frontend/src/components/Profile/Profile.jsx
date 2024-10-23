@@ -37,7 +37,7 @@ const Profile = () => {
     _id: "Anjali_Gupta-20b48960",
     joinedAt: "8 Aug 2024",
   });
-  const [patRegistered, setPatRegistered] = useState(0);
+  const [patRegistered, setPatRegistered] = useState([]);
   const [errors, setErrors] = useState();
   const [patentInteractions, setPatentInteractions] = useState({
     wishlistCount: 0,
@@ -301,7 +301,7 @@ const Profile = () => {
                   <div className="patents">
                     <div className="patents-grid">
                       {patRegistered
-                        .filter((patent) => patent.transactionType !== "sold")
+                        ?.filter((patent) => patent.transactionType !== "sold")
                         .map((patent, index) => (
                           <img
                             src={patentImage} // Assuming you're showing a PDF thumbnail or similar image
@@ -319,7 +319,7 @@ const Profile = () => {
                   <h3>Sold</h3>
                   <div className="patents-grid">
                     {patRegistered
-                      .filter((patent) => patent.transactionType === "sold")
+                      ?.filter((patent) => patent.transactionType === "sold")
                       .map((patent, index) => (
                         <img
                           src={patentImage}

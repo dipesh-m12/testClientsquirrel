@@ -33,6 +33,7 @@ const NavBar = () => {
       if (response.status === 200) {
         // Handle logout logic
         setIsLoggedIn(false);
+        localStorage.removeItem("squirrelUser");
         navigate("/"); // Navigate to home or login page
       }
     } catch (error) {

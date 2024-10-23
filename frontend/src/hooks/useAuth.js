@@ -7,7 +7,8 @@ const useAuth = (redirect = true) => {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
   const navigate = useNavigate();
   useEffect(() => {
-    const token = Cookies.get("token");
+    // const token = Cookies.get("token");
+    const token = localStorage.getItem("squirrelUser");
     console.log("Token", token);
     if (token) {
       setIsAuthenticated(true); // Set to true if token exists
