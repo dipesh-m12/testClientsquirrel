@@ -73,7 +73,7 @@ const Register = () => {
       try {
         // Send a POST request to the backend
         const response = await axios.post(
-          "http://localhost:5000/api/auth/register",
+          `${auth}/register`,
           {
             firstName: formData.firstName,
             lastName: formData.lastName,

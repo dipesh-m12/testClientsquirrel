@@ -155,11 +155,7 @@ const PatentForm = () => {
       }
 
       // Ensure formData includes the updated pdf
-      const patentData = {
-        ...formData,
-        pdf: response.data.fileUrl,
-        id: formData.id,
-      }; // Ensure id and pdf are included
+      const patentData = { ...formData, pdf: formData.pdf, id: formData.id }; // Ensure id and pdf are included
 
       const { data } = await axios.post(
         `${patentsRoute}/add-patent`,
